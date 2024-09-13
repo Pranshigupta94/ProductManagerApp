@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:h2:./appdb
+    password:
+    username: sa
+h2:
+  console:
+    enabled:true
+greeting:
+  message: 'Hello'
+
+
+
+
+
+
+  #  profiles:
+  #    active: dev
