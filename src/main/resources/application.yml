@@ -1,8 +1,6 @@
 spring:
-  datasource:
-    url: jdbc:h2:./appdb
-    password:
-    username: sa
+  profiles:
+    active: dev
 h2:
   console:
     enabled:true
@@ -14,5 +12,8 @@ greeting:
 
 
 
-  #  profiles:
-  #    active: dev
+
+#  datasource:
+#    url: jdbc:h2:./appdb
+#    password:
+#    username: sa

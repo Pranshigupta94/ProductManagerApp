@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class  Product {
     private Integer id;
-    private String name;
+    private String productName;
     private String description;
     private Double cost;
 }

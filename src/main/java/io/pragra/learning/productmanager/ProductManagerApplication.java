@@ -32,20 +32,24 @@ public class ProductManagerApplication {
     @Bean
     CommandLineRunner runner(ProductDao productDao){
         return args -> {
-//            Product phoneEver = Product.builder().name("Iphone 16").
-//    description("New fastest Iphone")
-//            .cost(1500.00)
-//                    .build();
-//           Product product = productDao.saveProduct(phoneEver);
-//
-//            System.out.println("Saved Product = " + product);
+      /*      Product phoneEver = Product.builder().name("Iphone 16").
+    description("New fastest Iphone")
+            .cost(1500.00)
+                    .build();
+           Product product = productDao.saveProduct(phoneEver);
 
-            Review review = Review.builder()
+            System.out.println("Saved Product = " + product);*/
+
+         /*   Review review = Review.builder()
                     .review("Good Phone")
                     .reviewDate(new Date()).build();
 
             reviewDao.addReview(1020,review);
+*/
 
+            //System.out.println("Updated product name=" + productDao.updateProductName("Iphone 16 pro", 1020));
+
+            System.out.println("get all product =" + productDao.getAllProduct());
         };
     }
 }
